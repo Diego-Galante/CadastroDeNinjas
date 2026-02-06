@@ -13,7 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data //getters and setters
-public class NinjaModel {
+public class NinjaModel{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

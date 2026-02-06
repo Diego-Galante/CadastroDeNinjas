@@ -24,6 +24,9 @@ public class NinjaModel {
     @Column(unique = true)
     private String email;
 
+    @Column(name = "img_url")//dá o nome a coluna
+    private String imgUrl;
+
     private int idade;
 
     //@ManyToOne um ninja tem uma unica missao
